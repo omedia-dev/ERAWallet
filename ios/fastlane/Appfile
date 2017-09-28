@@ -1,0 +1,13 @@
+app_identifier "com.dex.era" # The bundle identifier of your app
+apple_id "developers@dextechnology.com" # Your Apple email address
+team_id "8WA445Y7ED"  # Developer Portal Team ID
+# you can even provide different app identifiers, Apple IDs and team names per lane:
+# More information: https://github.com/fastlane/fastlane/blob/master/fastlane/docs/Appfile.md
+# Era.app.dSYM.zip
+ENV["APP_NAME"] = "datachan"
+ENV["PROJECT_DIR"] = File.expand_path(File.join(File.dirname(__FILE__), '..'))
+ENV["BUILD_DIR"] = File.join(ENV["PROJECT_DIR"], "build")
+ENV["DSYM_ZIP_PATH"] = File.join(ENV["BUILD_DIR"], ENV["APP_NAME"] + ".app.dSYM.zip")
+ENV["IPA_PATH"] = File.join(ENV["BUILD_DIR"], ENV["APP_NAME"] + ".ipa")
+ENV["HOCKEY_API_TOKEN"] = "70e0474a2b0d43c6a16ee45959816c4b"
+ENV["HOCKEY_APP_ID"] = "9d765c83c6414ac79b86636221f54f66"

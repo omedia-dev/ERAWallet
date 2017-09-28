@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "258290896385",
+    "firebase_url": "https://erachain-e70fc.firebaseio.com",
+    "project_id": "erachain-e70fc",
+    "storage_bucket": "erachain-e70fc.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:258290896385:android:30323fff365bd24c",
+        "android_client_info": {
+          "package_name": "com.datachan"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "258290896385-73ai9aibdl0frf4trggnlr844795td60.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.datachan",
+            "certificate_hash": "bdd23b1aeacc86b1d75ffd91c1e2051b76253c00"
+          }
+        },
+        {
+          "client_id": "258290896385-t5h3nbpbrifhs03fjulanu93dddv0mg2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBwH1nsO5EeGZRW2htj1_X8sSUmQYMlKnU"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "258290896385-t5h3nbpbrifhs03fjulanu93dddv0mg2.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

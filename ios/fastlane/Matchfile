@@ -1,0 +1,28 @@
+# Home
+# https://github.com/fastlane/fastlane
+
+# Install
+# brew cask install fastlane
+
+# Update provisions
+# fastlane match adhoc
+# fastlane match development
+# fastlane match appstore
+
+# Installed provisions location
+# cd ~/Library/MobileDevice/Provisioning\ Profiles
+
+# apple developer account:  developers@dextechnology.com
+# apple developer password: 3oVW0zU]Fo-C
+# git repo passphase:       3272qzQEzxXbrLRP
+
+# You must have access to git repo below
+git_url "http://teamcity:vD22upQRVkMWV9p8@git.dextechnology.com/dex/ios-credentials.git"
+type "development" # The default type, can be: appstore, adhoc or development
+app_identifier ["com.dex.erachain"] # * - Wildcard AppID for any BundleID
+username "developers@dextechnology.com" # Your Apple Developer Portal username
+team_id "8WA445Y7ED"
+team_name "dextechnology"
+force false # true - re-generate the provisioning profiles on each run, false - generate only if not exists
+force_for_new_devices true # re-generate provisioning profiles if devices list changed
+readonly true # true - use provisions stored in git repo, false - use provisions from dev portal and store it to repo

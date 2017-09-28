@@ -1,0 +1,12 @@
+{
+  "baseUrl": "http://18.220.217.143:9067/api",
+  "environment": "production",
+  "locationSelectorDebounce": 200,
+  "blocksTimeout": 30000,
+  "defaultSecretKey": "",
+  "defaultSendAddress": "",
+  "defaultSendAmount": "",
+  "defaultSendMessage": "",
+  "defaultSendHead": "",
+  "networkPort": 9066
+}

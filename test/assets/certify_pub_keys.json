@@ -1,0 +1,36 @@
+{
+  "reference": "2QUkaFKWodS1Lc9P18SvTCCkptvkfcbRx2eBXcyfJ6uH1MPV84o4KGtZovsoKxhdXoJk9SUpX6SE9VJqG7AMikax",
+  "blockATs": "",
+  "creator": "7EpDngzSLXrqnRBJ5x9YKTU395VEpsz5Mz",
+  "signature": "3Y6AjQjKYsnpBKwH7GWxMMqvEnh4svoCnQBdAre5eWQCmiTWuKbMxDxbEQCuCPnzVi2txzMyTBBbydU5mDXRfVqC",
+  "fee": "0.00065536",
+  "transactions": [
+    {
+      "creator": "7AfGz1FJ6tUnxxKSAHfcjroFEm8jSyVm7r",
+      "signature": "EgZvCMwFkEr3nxgS8doZgwScRDozxwvHRNCukAWstYkGRbCza4JRtYcnbkD9Z4TDZNXuXW7W76WpJKzsSt1FmaK",
+      "fee": "0.00010304",
+      "sertified_public_keys": [
+        "5T3mHj9SVpyXYF1mBzMP7Jy5LYbXPsogVEua8MmXyAKV"
+      ],
+      "type": 36,
+      "confirmations": 11429,
+      "version": 0,
+      "record_type": "Sertify Person",
+      "reference": "1497970093602",
+      "property2": 0,
+      "add_day": 712,
+      "property1": 1,
+      "sequence": 1,
+      "key": 28,
+      "sertified_signatures": [],
+      "timestamp": 1497972085260,
+      "height": 19534
+    }
+  ],
+  "version": 1,
+  "generatingBalance": 161999,
+  "winValueTargeted": 3049,
+  "transactionsHash": "HZtLLNHY6Yd7PeaFnE8obG49crJWTX6LrNFEonqU3nya",
+  "timestamp": 1497972203000,
+  "height": 19534
+}

@@ -1,0 +1,20 @@
+{
+  "baseUrl": "http://18.220.217.143:9067/api",
+  "blocksPerRequest": 30,
+  "blocksTimeout": 1000,
+  "build": 0,
+  "defaultPin": "1111",
+  "defaultSecretKey": "2HSpQKb7VLhmFMkW33qgEQDsEMQhTzMMAyn18XjPKhUsGT4qMUrfsiXUWDyB9D41A4L5sy2cAi8UCdh1nwkjqDwH",
+  "defaultSendAddress": "79dstwVr8zrWA58brasD8ArjvgfTjkfDTW",
+  "defaultSendAmount": "0.01",
+  "defaultSendMessage": "Test Send Message",
+  "defaultSendHead": "Test Send Head",
+  "environment": "development",
+  "locationSelectorDebounce": 0,
+  "jpegQuality": 80,
+  "licenseUrl": "https://github.com/icreator/Erachain_public/blob/master/License/1.06.md",
+  "maxImageSize": 20000,
+  "minImageSize": 15000,
+  "networkPort": 9066,
+  "version": ""
+}

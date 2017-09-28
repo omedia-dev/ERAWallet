@@ -1,0 +1,53 @@
+{
+  "compilerOptions": {
+    "target": "es6",
+    "jsx": "react-native",
+    "outDir": "build",
+    "typeRoots": [
+      "./node_modules/@types",
+      "./test/types"
+    ],
+    "lib": [
+      "es6",
+      "es2015",
+      "dom"
+    ],
+    "types": [
+      "reflect-metadata",
+      "mocha",
+      "chai",
+      "lodash"
+    ],
+    "allowSyntheticDefaultImports": true,
+    "noImplicitAny": true,
+    "noUnusedLocals": true,
+    "noImplicitReturns": true,
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
+    "preserveConstEnums": false,
+    "allowJs": false,
+    "sourceMap": true,
+    "moduleResolution": "node",
+    "alwaysStrict": true,
+    "strictNullChecks": true
+  },
+  "filesGlob": [
+    "src/**/*.ts",
+    "src/**/*.tsx",
+    "shim.js"
+  ],
+  "exclude": [
+    "**/index.android.js",
+    "**/index.ios.js",
+    "support",
+    "__tests__",
+    "build",
+    "node_modules",
+    "_node_modules",
+    "__node_modules",
+    "test",
+    "shim.js",
+    "tools"
+  ],
+  "compileOnSave": false
+}
